@@ -1,0 +1,21 @@
+body{
+    background: linear-gradient(180deg, #49074d, #be8edc);
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-content: center;
+}
+
+h2{
+   
+    padding: 5px;
+    background: #4e145a;
+    box-shadow: 5px -4px 10px #be8edc;
+    border-radius: 10px;
+}
+table{
+    text-align: center;
+    background-color: #4e145a;
+    border: 3px solid #872da8;
+    border-radius: 10px;
+    box-shadow: -5px 4px 15px #200a2d;
+}

@@ -3,11 +3,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>P5 - Course Registration Form</title>
+    <link rel="stylesheet" href="CSS/project5.css">
 </head>
 <body>
     <h1>Course Registration Form</h1>
-    <fieldset >
-        <legend>Personal Details    </legend>
+    <fieldset id="field">
+        <legend id="leg">Personal Details    </legend>
         <table>
             <tr>
                 <td><label for="fname">First Name</label></td>
@@ -38,7 +39,7 @@
                 <td><input type="date" id="dob" name="dob" required></td>
             </tr>
             <tr>
-                <td><label for="gender">Gender:</label></td>
+                <td><label id="gender-label" for="gender">Gender:</label></td>
                 <td>
                     <input type="radio" id="male" name="gender" value="male">
                     <label for="male">Male</label>
@@ -64,9 +65,9 @@
                 <td><input type="file" id="picture" name="picture"></td>
             </tr>
         </table>
-    </fieldset>
-    <fieldset>
-        <legend>Course Details</legend>
+    </fieldset><br>
+    <fieldset id="field">
+        <legend id="leg">Course Details</legend>
         <table>
             <tr>
                 <td><label for="course">Select Course</label></td>
@@ -81,7 +82,7 @@
                 </td>
             </tr>
             <tr>
-                <td><label for="mode">Delivery Mode:</label></td>
+                <td><label id="mode-label" for="mode">Delivery Mode:</label></td>
                 <td>
                     <input type="radio" id="online" name="mode" value="online">
                     <label for="online">Online</label>
@@ -98,6 +99,6 @@
         </table>
     </fieldset>
     <br>
-    <button type="submit">Register</button>
+    <center><button type="submit">Register</button></center>
 </body>
 </html>

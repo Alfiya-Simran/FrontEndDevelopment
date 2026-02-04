@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>P4 - Portfolio</title>
-
+    <link rel="stylesheet" href="CSS/project4.css" />
     <style>
       html {
         scroll-behavior: smooth;
@@ -19,44 +19,39 @@
   </head>
 
   <body>
-    <marquee behavior="alternate" direction="left" width="600px"><h1>Alfiya Simran - Full Stack Developer</h1></marquee>
-    <h3>Welcome to my portfolio website&#128075;</h3><p>Use the navigation &#128071; to explore </p>
-
-    <!-- Unordered List for Navigation -->
+    <h1>Alfiya Simran - Full Stack Developer</h1>
+    <h3 id="welcome">Welcome to my portfolio website&#128075;</h3>
     <nav>
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="./assets/Resume.pdf" download>Download Resume</a></li>
-      </ul>
+      <button id="navi"><a id="navi2" href="#about">About Me</a></button>
+      <button id="navi"><a id="navi2" href="#skills">Skills</a></button>
+      <button id="navi"><a id="navi2" href="#projects">Projects</a></button>
+      <button id="navi"><a id="navi2" href="#contact">Contact</a></button>
+      <button id="navi"><a id="navi2" href="./assets/Resume.pdf" download>Download Resume</a></button>
+      
     </nav>
-
-    <hr />
 
     <!-- ===== About Section ===== -->
     <section>
       <h2 id="about">About Me</h2>
-      <p>
+      <p id="para">
         I am a <strong>final-year B.Tech student</strong> and a
         <strong>passionate Full Stack Developer</strong> with interests in
         <em>frontend</em>, <em>backend</em>, and building real-world projects.
-        I enjoy creating clean UIs, integrating APIs, and working with databases.
+        <br>I enjoy creating clean UIs, integrating APIs, and working with databases.
       </p>
 
       <p>
-        <a
+        <button id="git"><a
           href="https://github.com/Alfiya-Simran"
           target="_blank"
           rel="noopener noreferrer"
         >
           Visit My GitHub
-        </a>
+        </a></button>
       </p>
 
       <!-- Blockquote Example -->
-      <blockquote>
+      <blockquote id="para">
         <p>
           <q
             >Any fool can write code that a computer can understand. Good
@@ -67,7 +62,6 @@
       </blockquote>
     </section>
 
-    <hr />
 
     <!-- ===== Skills Section ===== -->
     <section>
@@ -75,7 +69,7 @@
 
       <!-- Unordered List with type="square" -->
       <h3>Technical Skills</h3>
-      <ul type="square">
+      <ul type="square" id="para">
         <li>
           <mark>Python</mark>, <mark>Java</mark>, <mark>JavaScript</mark>
         </li>
@@ -90,7 +84,7 @@
 
       <!-- ===== Nested List with Different Types ===== -->
       <h3>Learning Goals</h3>
-      <ol type="1">
+      <ol type="1" id="para">
         <li>
           Advanced Frontend Development
           <ul type="disc">
@@ -117,70 +111,89 @@
 
       <!-- Ordered List type="A" (uppercase letters) -->
       <h3>Soft Skills</h3>
-      <ol type="A">
+      <ol type="A" id="para">
         <li>Communication</li>
         <li>Problem Solving</li>
         <li>Team Collaboration</li>
       </ol>
 
       <!-- Ordered List type="a" (lowercase letters) -->
-      <h3>Languages Known</h3>
-      <ol type="a">
+      <h2>Languages Known</h2>
+      <ol type="a" id="para">
         <li>English</li>
         <li>Hindi</li>
         <li>Kannada</li>
       </ol>
 
       <!-- Ordered List type="I" (uppercase Roman numerals) -->
-      <h3>Experience Level</h3>
-      <ol type="I">
+      <h2>Experience Level</h2>
+      <ol type="I" id="para">
         <li>Beginner - Cloud & DevOps</li>
         <li>Intermediate - JavaScript / React</li>
         <li>Intermediate - Python / ML basics</li>
       </ol>
 
       <!-- Ordered List type="i" (lowercase Roman numerals) -->
-      <h3>Certifications</h3>
-      <ol type="i">
+      <h2>Certifications</h2>
+      <ol type="i" id="para">
         <li>Web Development Fundamentals (add your exact name)</li>
         <li>Java / Full Stack Training (add your exact name)</li>
         <li>Cloud Computing Basics (add your exact name)</li>
       </ol>
 
       <!-- Description List -->
-      <h3>Tech Glossary</h3>
-      <dl>
-        <dt><abbr title="Application Programming Interface">API</abbr></dt>
+      <h2>Tech Glossary</h2>
+      <dl id="para">
+        <dt><strong><abbr title="Application Programming Interface">API</abbr></strong></dt>
         <dd>Application Programming Interface for system communication.</dd>
 <br>
         <dt>
-          <abbr title="Continuous Integration/Continuous Deployment">CI/CD</abbr>
+          <strong><abbr title="Continuous Integration/Continuous Deployment">CI/CD</abbr></strong>
         </dt>
         <dd>Automating build, test, and deployment.</dd>
 <br>
-        <dt><abbr title="HyperText Markup Language">HTML</abbr></dt>
+        <dt><strong><abbr title="HyperText Markup Language">HTML</abbr></strong></dt>
         <dd>The standard markup language for creating web pages.</dd>
 <br>
-        <dt><abbr title="Document Object Model">DOM</abbr></dt>
+        <dt><strong><abbr title="Document Object Model">DOM</abbr></strong></dt>
         <dd>A programming interface for web documents.</dd>
       </dl>
     </section>
 
-    <hr />
 
 
     <!-- ===== Projects Section ===== -->
     <section>
       <h2 id="projects">Projects</h2>
 
-      <ul>
-        <li><a href="https://github.com/Alfiya-Simran/InvestNest" target="_blank">InvestNest (React + Firebase)</a></li>
-        <li><a href="https://github.com/Alfiya-Simran/Brain-Bloom" target="_blank">Brain Bloom (Python + Tkinter + SQLite)</a></li>
-        <li><a href="https://github.com/Alfiya-Simran/Brain-Tumor" target="_blank">Brain Tumor Classification (CNN)</a></li>
-      </ul>
+      <p id="para">
+          <a id="navi2" href="https://github.com/Alfiya-Simran/InvestNest" target="_blank"><img
+            src="https://cdn-icons-png.flaticon.com/512/733/733553.png"
+            alt="GitHub Profile"
+            height="20"
+            width="20"
+          /></a>&nbsp;<strong>InvestNest (React + Firebase)</strong><br>
+
+          <p id="para">
+          <a id="navi2" href="https://github.com/Alfiya-Simran/InvestNest" target="_blank"><img
+            src="https://cdn-icons-png.flaticon.com/512/733/733553.png"
+            alt="GitHub Profile"
+            height="20"
+            width="20"
+          /></a>&nbsp;<strong>Brain Bloom (Python + Tkinter + SQLite)</strong><br>
+
+          <p id="para">
+          <a id="navi2" href="https://github.com/Alfiya-Simran/Brain-Tumor" target="_blank"><img
+            src="https://cdn-icons-png.flaticon.com/512/733/733553.png"
+            alt="GitHub Profile"
+            height="20"
+            width="20"
+          /></a>&nbsp;<strong>Brain Tumor Classification (CNN)</strong><br>
+        
+      </p>
 
       <!-- Details and Summary -->
-      <details>
+      <details id="para">
         <summary><strong>Click to see more project ideas</strong></summary>
         <ul>
           <li>Speech-Controlled Mini PC Assistant</li>
@@ -191,29 +204,25 @@
       </details>
     </section>
 
-    <hr />
 
     <!-- ===== Contact Section ===== -->
     <section>
       <h2 id="contact">Contact</h2>
 
       <!-- Address Element for Contact Info -->
-      <address>
+      <address id="para">
         <strong>Alfiya Simran - Full Stack Developer</strong><br />
         Bengaluru, Karnataka<br /><br />
 
         Email:
-        <a href="mailto:alfiyasimransuperset@gmail.com"
-          >alfiyasimransuperset@gmail.com</a
-        ><br />
-        Phone: <a href="tel:+917204340316">+91 72043 40316</a>
+        <a id="plinks" href="mailto:alfiyasimransuperset@gmail.com">alfiyasimransuperset@gmail.com</a><br />
+        Phone: <a  id="plinks" href="tel:+917204340316">+91 72043 40316</a>
       </address>
 
       <!-- Social Media Links with Figure -->
-      <figure>
-        <figcaption>
+      <p id="para">
           <strong>Connect with me on social media:</strong>
-        </figcaption>
+        </p>
         <br />
 
         <!-- Replace these links with your real profiles -->
@@ -253,17 +262,16 @@
       </figure>
     </section>
 
-    <hr />
 
     <!-- Footer -->
     <footer>
-      <p>
+      <p id="para">
         <small>
           © 2026 Alfiya Simran | Built with <strong>Pure HTML</strong> at
-          <a href="hhttps://thetapacademy.com/" target="_blank">TAP Academy</a>
+          <a id="plinks" href="https://thetapacademy.com/" target="_blank">TAP Academy</a>
         </small>
       </p>
-      <p><a href="#top">⬆ Back to Top</a></p>
+      <p><button id="git"><a id="navi2" href="#top">⬆ Back to Top</a></button></p>
     </footer>
   </body>
 </html>

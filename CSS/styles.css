@@ -1,0 +1,104 @@
+body{
+    background: radial-gradient(ellipse at center, #000328 50%, #00458E 90%);
+    color: #d6cece;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#nav-table{
+    margin: 0px auto;
+    border-radius: 10px;
+    background: #0003289d;
+    box-shadow: 5px 5px 15px #001f4d;
+}
+#navb{
+    background: linear-gradient(90deg, #1a27669e, #ae1b1dbb, #fc9e32b3);
+    color: rgb(6, 13, 78);
+    text-decoration: none;
+    border: 0px solid #000328;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    margin: 5px;
+}
+#nava{
+    color: rgb(217, 217, 222);
+    text-decoration: none;
+}
+#nav-title{
+    color: #ffffff;
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+small{
+    font-size: 15px;
+}
+#table1,th,td{
+    margin: 0px auto;
+    background: #0003282f;
+    border: 0px solid #c8c9d5;
+    border-radius: 10px;
+}
+#about, #importance, #applications, #projects, #trainer, #location, #play, #learn{
+    background: linear-gradient(90deg, #1a27669e, #ae1b1dbb, #fc9e32b3);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+marquee{
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#learn-table{
+    width: 90%;
+    background: #0003282f;
+    border: 0px solid #c8c9d5;
+    border-radius: 10px;
+}
+.project-grid {
+  width: 90%;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.project-card {
+  background: linear-gradient(135deg, #1a2766, #8e1b1b);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+  transition: transform 0.3s ease;
+}
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  margin: 10px 0;
+}
+
+.card-content a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffd369;
+}
+#trainer-img{
+    border-radius: 20px;
+    border: 0px solid #f8f6f6;
+}
+iframe{
+    border-radius: 15px;
+    border: 0px solid #421c59;
+    padding: 2px;
+    margin-top: 10px;
+}

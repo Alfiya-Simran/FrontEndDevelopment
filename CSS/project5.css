@@ -1,0 +1,56 @@
+body{
+    margin: 0px auto;
+    padding: 20px;
+    background: linear-gradient(90deg, #43C197, #1C1554);
+    color: white;
+}
+h1{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36px;
+    color: #350329;
+    background: linear-gradient(90deg, #F0EAFC, #61CEF2, #F538B9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 30%;
+    margin: 10px auto;
+    padding: 5px;
+}
+#field{
+    border: 2px solid #1C1554;
+    border-radius: 10px;
+    background: #43C197;
+    padding: 20px;
+    width: 50%;
+    margin: 0px auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#leg{
+    background-color: #1C1554;
+    font-size: 20px;
+    border-radius: 7px;
+    padding: 5px;
+}
+input, select, textarea, gender-label, mode-label{
+    background-color: #dbdae6;
+    color: rgb(14, 13, 13);
+    border-radius: 5px;
+    border: 2px solid #1C1554;
+}
+table{
+    color: rgb(18, 12, 70);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+td{
+    padding: 5px;
+}
+button{
+    background: linear-gradient(90deg, #F0EAFC, #61CEF2, #F538B9);
+    color: rgb(6, 13, 78);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}

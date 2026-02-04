@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>HTML Portfolio | Alfiya Simran</title>
+  <link rel="stylesheet" href="CSS/styles.css" />
   <style>
       html {
         scroll-behavior: smooth;
@@ -9,32 +12,34 @@
     </style>
 </head>
 
-<body bgcolor="#040229" text="white"  >
+<body  >
 
 <!-- ================= NAVIGATION ================= -->
-<table width="100%" cellpadding="15" cellspacing="0" border="1" bordercolor="#FFFFFF">
+<nav>
+<table id="nav-table" width="100%" cellpadding="15" cellspacing="0">
   <tr>
-    <td width="30%">
+    <td id="nav-title" width="30%">
       <h3>HTML Portfolio</h3>
-      <small>Built using PURE HTML</small>
+      <small><i>Built using PURE HTML</i></small>
     </td>
     <td align="right">
-      <button><a href="#about">About</a></button>
-      <button><a href="#projects">Projects</a></button> 
-      <button><a href="#trainer">Trainer</a></button>
-      <button><a href="#location">Location</a></button> 
-      <button><a href="#playlist">Playlist</a></button>
-    </td>
+      <section>
+      <button id="navb"><a id="nava" href="#about">About</a></button>
+      <button id="navb"><a id="nava" href="#projects">Projects</a></button> 
+      <button id="navb"><a id="nava" href="#trainer">Trainer</a></button>
+      <button id="navb"><a id="nava" href="#location">Location</a></button> 
+      <button id="navb"><a id="nava" href="#playlist">Playlist</a></button>
+    </section></td>
   </tr>
 </table>
-
+</nav>
 <br><br><br>
 
 <!-- ================= HERO ================= -->
+ <section id="about">
 <center>
   <a name="about"></a>
-  <marquee behavior="alternate" direction="left" width="500px"><h3>━━━━━━ ABOUT ME ━━━━━━</h3></marquee>
-  <br>
+  <h1>About Me</h1>
   <img src="./assets/profile.jpeg" alt="profile picture" width="150" height="150" style="border-radius: 75px; border: 2px solid #000;">
   <h1>Alfiya Simran</h1>
 
@@ -51,7 +56,7 @@
 
   <br><br><br>
 
-  <table width="60%" cellpadding="20" border="2" bordercolor="#FFFFFF">
+  <table id="table1" width="60%" cellpadding="20">
     <tr>
       <th width="33%">
         <h2>4+</h2>
@@ -68,18 +73,13 @@
     </tr>
   </table>
 </center>
-
-<br><br>
-<hr width="100%">
-<br><br>
-
+</section>
 <!-- ================= ABOUT ================= -->
-
+<section id="learn">
 <center>
-  <marquee behavior="alternate" direction="left" width="600px"><h3>━━━━━━ MY LEARNING JOURNEY ━━━━━━</h3></marquee>
   <h1>What I’m Learning</h1>
 
-  <table width="80%" cellpadding="20" border="1" bordercolor="#FFFFFF">
+  <table id="table1" width="80%" cellpadding="20" border="1" bordercolor="#FFFFFF">
     <tr>
       <td width="30%" align="center">
         <img src="https://img.icons8.com/color/200/html-5.png" alt="html logo" width="100" height="100">
@@ -94,7 +94,7 @@
           journey using only core concepts.
         </p>
 
-        <table cellpadding="10" border="1">
+        <table id="learn-table" cellpadding="10" border="1">
           <tr>
             <td>✓ Tables</td>
             <td>✓ Lists</td>
@@ -107,23 +107,21 @@
   </table>
 </center>
 
-<br><br>
-<hr width="100%">
-<br><br>
-
+  
+</section>
 <!-- ================= IMPORTANCE ================= -->
-
+<section id="importance">
 <center>
-      <marquee behavior="alternate" direction="left" width="600px"><h3>━━━━━━ WHY IT MATTERS ━━━━━━</h3></marquee>
+      
       <h1>Importance of HTML in Real World</h1>
 
       <br><br>
 
-      <table width="90%" cellpadding="0" cellspacing="15" bordercolor="#FFFFFF">
+      <table width="90%" cellpadding="20" cellspacing="15" >
         <tbody><tr>
           <!-- Card 1 -->
           <td width="33%" valign="top">
-            <table width="100%" cellpadding="20" border="2">
+            <table id="table1" width="100%" cellpadding="20" >
               <tbody><tr>
                 <td>
                   <center><img src="https://miro.medium.com/1*IYQnAWgsoxvm8XPP2Rmzbg.jpeg" alt="web development" width="100%" height="150"></center>
@@ -141,7 +139,7 @@
 
           <!-- Card 2 -->
           <td width="33%" valign="top">
-            <table width="100%" cellpadding="20" border="2">
+            <table id="table1" width="100%" cellpadding="20">
               <tbody><tr>
                 <td>
                   <center><img src="https://media.licdn.com/dms/image/v2/D5612AQFA3xlSpiI7_w/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1685196659117?e=2147483647&v=beta&t=BJg1S06FjPIJAdXoVJ9h4N9bmu9vqyPlg0Dxc-JlQh4" alt="web development" width="100%" height="150"></center>
@@ -158,7 +156,7 @@
 
           <!-- Card 3 -->
           <td width="33%" valign="top">
-            <table width="100%" height="330px" cellpadding="20" border="2">
+            <table id="table1" width="100%" cellpadding="20">
               <tbody><tr>
                 <td>
                   <center><img src="https://img.freepik.com/free-vector/app-development-banner_33099-1720.jpg?semt=ais_hybrid&w=740&q=80" alt="mobile app development" width="100%" height="150"></center>
@@ -177,7 +175,7 @@
         <tr>
           <!-- Card 4 -->
           <td width="33%" valign="top">
-            <table width="100%" height="332px" cellpadding="20" border="2">
+            <table id="table1" width="100%" cellpadding="20">
               <tbody><tr>
                 <td>
                   <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDdqzPG3IP4WWRN9z_qckR9ziextpOwbTTvQ&s" alt="SEO and Accessibility" width="100%" height="150"></center>
@@ -194,7 +192,7 @@
 
           <!-- Card 5 -->
           <td width="33%" valign="top">
-            <table width="100%" cellpadding="20" border="2">
+            <table id="table1" width="100%" cellpadding="20" border="2">
               <tbody><tr>
                 <td>
                   <center><img src="https://www.spinxdigital.com/app/uploads/2019/02/Next-Gen-Email-Marketing-1024x640-1.jpg" alt="" width="100%" height="150"></center>
@@ -211,7 +209,7 @@
 
           <!-- Card 6 -->
           <td width="33%" valign="top">
-            <table width="100%" height="332px" cellpadding="20" border="2">
+            <table id="table1" width="100%" height="332px" cellpadding="20">
               <tbody><tr>
                 <td>
                   <center><img src="https://www.shutterstock.com/image-vector/jump-into-high-paying-job-260nw-2175021729.jpg" alt="" width="100%" height="150"></center>
@@ -229,17 +227,16 @@
       </tbody></table>
     </center>
 
-<br><br>
-<hr width="100%">
-<br><br>
-
+  
+</section>
+<section id="applications">
 <center>
-      <marquee behavior="alternate" direction="left" width="500px"><h3>━━━━━━ APPLICATIONS ━━━━━━</h3></marquee>
+     
       <h1>Where is HTML Used?</h1>
 
       <br><br>
 
-      <table cellpadding="20" cellspacing="8" border="1" bordercolor="#FFFFFF">
+      <table id="table1" cellpadding="20" cellspacing="8">
         <tbody><tr>
           <td align="center">
             <h2>🛒</h2>
@@ -285,206 +282,84 @@
           </td>
         </tr>
       </tbody></table>
-    </center><br><br>
-<hr width="100%">
-<br><br>
+    </center>  </section>
 <!-- ================= PROJECTS ================= -->
-<a name="projects"></a>
-<center>
-  <marquee behavior="alternate" direction="left" width="500px"><h3>━━━━━━ PROJECTS ━━━━━━</h3></marquee>
-  <h1>My HTML Projects</h1>
-<table width="90%" cellpadding="0" cellspacing="20">
-        <tbody><tr>
-          <!-- Project 1 -->
-          <td width="33%" valign="top">
-            <table width="100%" height="405px" cellpadding="0" cellspacing="0" border="3" bordercolor="#FFFFFF">
-              <tbody><tr>
-                <td align="center" height="120">
-                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnMGl8QAo8SpCh_HJ4aia-8agpOdGGSxbKKg&s" alt="blog icon" width="100%" height="200">
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <table cellpadding="20">
-                    <tbody><tr>
-                      <td>
-                        <small><b>PROJECT 01</b></small>
-                        <h3>Multimedia Blog</h3>
-                        <p>
-                          <small>Tags: audio, video, source, img, poster, controls,
-                            pre, mark, del, ins, abbr, strong, em</small>
-                        </p>
-                        <button type="button"><a href="./1Multimedia.html" target="_blank"><b>→ View Project</b></a></button>
-                      </td>
-                    </tr>
-                  </tbody></table>
-                </td>
-              </tr>
-            </tbody></table>
-          </td>
+ <section id="projects">
+  <h1 style="text-align:center;">My HTML Projects</h1>
 
-          <!-- Project 2 -->
-          <td width="33%" valign="top">
-            <table width="100%" height="405px" cellpadding="0" cellspacing="0" border="3" bordercolor="#FFFFFF">
-              <tbody><tr>
-                <td align="center" height="120">
-                  <img src="https://t4.ftcdn.net/jpg/05/13/50/11/360_F_513501109_n52Wt60KF7CmaEMC75anJC7fwRE4BCoJ.jpg" alt="skills portfolio" width="100%" height="200">
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <table cellpadding="20">
-                    <tbody><tr>
-                      <td>
-                        <small><b>PROJECT 02</b></small>
-                        <h3>Life &amp; Skills Portfolio</h3>
-                        <p>
-                          <small>Tags: ol (type 1/A/I/a/i), ul (disc/square/circle),
-                            li, dl, dt, dd, nested lists</small>
-                        </p>
-                        <button type="button"><a href="./2life.html" target="_blank"><b>→ View Project</b></a></button>
-                      </td>
-                    </tr>
-                  </tbody></table>
-                </td>
-              </tr>
-            </tbody></table>
-          </td>
+  <div class="project-grid">
 
-          <!-- Project 3 -->
-          <td width="33%" valign="top">
-            <table width="100%" height="405px" cellpadding="0" cellspacing="0" border="3"  bordercolor="#FFFFFF">
-              <tbody><tr>
-                <td align="center" height="120">
-                  <img src="https://marketplace.canva.com/EAFboxA53xQ/2/0/1600w/canva-aesthetic-modern-simple-printable-class-schedule-7RoKH78PBOM.jpg" alt="timetable icon" width="100%" height="200">
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <table cellpadding="20">
-                    <tbody><tr>
-                      <td>
-                        <small><b>PROJECT 03</b></small>
-                        <h3>Course Time Table</h3>
-                        <p>
-                          <small>Tags: table, caption, thead, tbody, tr, th, td,
-                            rowspan, colspan, border, cellpadding</small>
-                        </p>
-                        <button type="button"><a href="./3TT.html" target="_blank"><b>→ View Project</b></a></button>
-                      </td>
-                    </tr>
-                  </tbody></table>
-                </td>
-              </tr>
-            </tbody></table>
-          </td>
-        </tr>
+    <div class="project-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnMGl8QAo8SpCh_HJ4aia-8agpOdGGSxbKKg&s" alt="">
+      <div class="card-content">
+        <small><b>PROJECT 01</b></small>
+        <h3>Multimedia Blog</h3>
+        <p><small>Tags: audio, video, source, img, poster, controls, pre, mark, del, ins, abbr, strong, em</small></p>
+        <a href="./1Multimedia.html" target="_blank">→ View Project</a>
+      </div>
+    </div>
 
-        <tr>
-          <!-- Project 4 -->
-          <td width="33%" valign="top">
-            <table width="100%" height="405px" cellpadding="0" cellspacing="0" border="3" bordercolor="#FFFFFF">
-              <tbody><tr>
-                <td align="center" height="120">
-                  <img src="https://sourcebae.com/blog/wp-content/uploads/2023/08/How-to-Build-a-Great-Developer-Portfolio.png" alt="portfolio icon" width="100%" height="200">
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <table cellpadding="20">
-                    <tbody><tr>
-                      <td>
-                        <small><b>PROJECT 04</b></small>
-                        <h3>Developer Portfolio</h3>
-                        <p>
-                          <small>Tags: nav, section, blockquote, cite, q, address,
-                            figure, figcaption, details, summary, footer, abbr,
-                            mark, code, kbd, samp, var, sub, sup</small>
-                        </p>
-                        <button type="button"><a href="./4Portfolio.html" target="_blank"><b>→ View Project</b></a></button>
-                      </td>
-                    </tr>
-                  </tbody></table>
-                </td>
-              </tr>
-            </tbody></table>
-          </td>
+    <div class="project-card">
+      <img src="https://t4.ftcdn.net/jpg/05/13/50/11/360_F_513501109_n52Wt60KF7CmaEMC75anJC7fwRE4BCoJ.jpg" alt="">
+      <div class="card-content">
+        <small><b>PROJECT 02</b></small>
+        <h3>Life & Skills Portfolio</h3>
+        <p><small>Tags: ol (type 1/A/I/a/i), ul (disc/square/circle), li, dl, dt, dd, nested lists</small></p>
+        <a href="./2life.html" target="_blank">→ View Project</a>
+      </div>
+    </div>
 
-          <!-- Project 5 -->
-          <td width="33%" valign="top">
-            <table width="100%" height="405px" cellpadding="0" cellspacing="0" border="3" bordercolor="#FFFFFF">
-              <tbody><tr>
-                <td align="center" height="120">
-                  <img src="https://colorlib.com/wp/wp-content/uploads/sites/2/colorlib-registration-form-4.jpg" alt="form icon" width="100%" height="200">
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <table cellpadding="20">
-                    <tbody><tr>
-                      <td>
-                        <small><b>PROJECT 05</b></small>
-                        <h3>Registration Form</h3>
-                        <p>
-                          <small>Tags: form, fieldset, legend, label, input
-                            (text/email/tel/password/date/radio/checkbox/file/url/number/range/time/color/hidden),
-                            select, option, optgroup, datalist, textarea,
-                            button, output, progress, meter</small>
-                        </p>
-                        <button type="button"><a href="./5form.html" target="_blank"><b>→ View Project</b></a></button>
-                      </td>
-                    </tr>
-                  </tbody></table>
-                </td>
-              </tr>
-            </tbody></table>
-          </td>
+    <div class="project-card">
+      <img src="https://marketplace.canva.com/EAFboxA53xQ/2/0/1600w/canva-aesthetic-modern-simple-printable-class-schedule-7RoKH78PBOM.jpg" alt="">
+      <div class="card-content">
+        <small><b>PROJECT 03</b></small>
+        <h3>Course Time Table</h3>
+        <p><small>Tags: table, caption, thead, tbody, tr, th, td, rowspan, colspan, border, cellpadding</small></p>
+        <a href="./3TT.html" target="_blank">→ View Project</a>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="https://sourcebae.com/blog/wp-content/uploads/2023/08/How-to-Build-a-Great-Developer-Portfolio.png" alt="portfolio icon">
+      <div class="card-content">
+        <small><b>PROJECT 04</b></small>
+        <h3>Developer Portfolio</h3>
+        <p><small>Tags: nav, section, blockquote, cite, q, address, figure, figcaption, details, summary, footer, abbr, mark, code, kbd, samp, var, sub, sup</small></p>
+        <a href="./4Portfolio.html" target="_blank">→ View Project</a>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="https://colorlib.com/wp/wp-content/uploads/sites/2/colorlib-registration-form-4.jpg" alt="form icon">
+      <div class="card-content">
+        <small><b>PROJECT 05</b></small>
+        <h3>Registration Form</h3>
+        <p><small>Tags: form, fieldset, legend, label, input (text/email/tel/password/date/radio/checkbox/file/url/number/range/time/color/hidden), select, option, optgroup, datalist, textarea, button, output, progress, meter</small></p>
+        <a href="./5form.html" target="_blank">→ View Project</a>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8WcGwpuI6QNoGr9QCo99uaK-95hXxfEiQ6g&s" alt="travel guide icon">
+      <div class="card-content">
+        <small><b>PROJECT 06</b></small>
+        <h3>Travel Guide</h3>
+        <p><small>Tags: header, nav, main, section, article, footer, iframe (Google Maps embed), img, form, input, textarea, button</small></p>
+        <a href="./6guide.html" target="_blank">→ View Project</a>
+      </div>
+    </div>
 
-          <!-- Project 6 -->
-          <td width="33%" valign="top">
-            <table width="100%" height="425px" cellpadding="0" cellspacing="0" border="3" bordercolor="#FFFFFF">
-              <tbody><tr>
-                <td align="center" height="120">
-                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8WcGwpuI6QNoGr9QCo99uaK-95hXxfEiQ6g&s" alt="travel guide icon" width="100%" height="200">
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <table cellpadding="20">
-                    <tbody><tr>
-                      <td>
-                        <small><b>PROJECT 06</b></small>
-                        <h3>Travel Guide</h3>
-                        <p>
-                          <small>Tags: header, nav, main, section, article, footer,
-                            iframe (Google Maps embed), img, form, input,
-                            textarea, button</small>
-                        </p>
-                        <button type="button"><a href="./6guide.html" target="_blank"><b>→ View Project</b></a></button>
-                      </td>
-                    </tr>
-                  </tbody></table>
-                </td>
-              </tr>
-            </tbody></table>
-          </td>
-        </tr>
-      </tbody></table>
-</center>
-<br><br>
-<hr width="100%">
-<br><br>
+  </div>
+</section>
+<section id="trainer">
 <a name="trainer"></a>
 <center>
-      <table width="70%" cellpadding="50" border="3" bordercolor="#FFFFFF">
+      <table width="70%" cellpadding="50">
         <tbody><tr>
           <td align="center">
-            <h3><marquee behavior="alternate" direction="left" width="500px">━━━━━━ OUR GUIDE ━━━━━━</marquee></h3>
+            
             <h1>Meet Our Trainer</h1>
 
             <br>
 
-            <img src="./assets/image.png" alt="Sir Picture" width="400" height="100%" style="border-radius: 20px; border: 2px solid #f8f6f6;">
+            <img id="trainer-img" src="./assets/image.png" alt="Sir Picture" width="400" height="100%" >
 
             <br>
 
@@ -505,7 +380,7 @@
 
             <br>
 
-            <table cellpadding="25" cellspacing="10" border="1">
+            <table id="table1" cellpadding="25" cellspacing="10" border="1">
               <tbody><tr>
                 <td align="center">
                   <h2>500+</h2>
@@ -524,10 +399,9 @@
           </td>
         </tr>
       </tbody></table>
-    </center><br><br>
-<hr width="100%">
-<br><br>
+    </center>  </section>
 <!-- ================= LOCATION ================= -->
+ <section id="location">
 <a name="location"></a>
 <center>
   <h3>━━━━━━ LOCATION ━━━━━━</h3>
@@ -537,14 +411,13 @@
       </iframe>
 </center>
 
-<br><br>
-<hr width="100%">
-<br><br>
-
+  
+</section>
+<section id="play">
 <!-- ================= PLAYLIST ================= -->
 <a name="playlist"></a>
 <center>
-  <marquee behavior="alternate" direction="left" width="500px"><h3>━━━━━━ LEARNING ━━━━━━</h3></marquee>
+  
   <h1>Course Playlist</h1>
 
   <iframe
@@ -555,9 +428,9 @@
 
 <br><br>
 <hr>
-
+</section>
 <!-- ================= FOOTER ================= -->
-<table width="100%" cellpadding="20" border="0" bordercolor="#FFFFFF">
+<table id="nav-table" width="100%" cellpadding="20">
       <tbody><tr>
         <td width="33%">
           <img src="https://yt3.googleusercontent.com/04F2w7EJARCVkThsC-cyLHK-rF3kT-fR5mdmL5Rd-XJ_Mucmukw4nwx3S62VdIEubxdhCKcGkg=s900-c-k-c0x00ffffff-no-rj" alt="TAP Academy Logo" width="50" height="50">
@@ -567,9 +440,9 @@
           <small>© 2026 TAP Academy. <br>HTML Project by Student under guidance of Trainer Harshit Sir.</small>
         </td>
         <td width="33%" align="right">
-          <a href="#about">About</a> &nbsp;|&nbsp;
-          <a href="#projects">Projects</a> &nbsp;|&nbsp;
-          <a href="#trainer">Trainer</a>
+          <a id="nava" href="#about">About</a> &nbsp;|&nbsp;
+          <a id="nava" href="#projects">Projects</a> &nbsp;|&nbsp;
+          <a id="nava" href="#trainer">Trainer</a>
         </td>
       </tr>
     </tbody></table>
