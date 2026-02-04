@@ -108,3 +108,18 @@ button{
     font-weight: 900;
     cursor:pointer;
 }
+#paris{
+    background: linear-gradient(90deg, #000091, #FFFFFF, #E1000F);
+}
+#kyoto{
+    background: radial-gradient(circle at center, #BC002D, #FFFFFF);
+}
+#newyork{
+    background: linear-gradient(130deg, #0A3161, #FFFFFF, #B31942);
+}
+#delhi{
+    background: linear-gradient(to bottom, #FF671F, #FFFFFF , #046A38);
+}
+#sydney{
+    background: linear-gradient(130deg, #012169, #FFFFFF, #E4002B);
+}

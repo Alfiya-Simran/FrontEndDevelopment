@@ -1,0 +1,14 @@
+body{
+    background: linear-gradient(180deg, #49074d, #be8edc);
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-content: center;
+}
+h1{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80px;
+    color: #dbd6da;
+    padding: 5px;
+    margin:  0px auto;
+}
