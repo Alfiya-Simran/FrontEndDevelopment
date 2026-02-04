@@ -43,8 +43,8 @@ img{
     box-shadow: -2px 5px 10px #96d4ca;
     padding: 2px;
 }
-video{
+iframe{
     border: 2px solid #6aa6c9;
     box-shadow: 5px 7px 10px #96d4ca;
-    
+    border-radius: 10px;
 }
